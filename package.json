@@ -1,0 +1,28 @@
+{
+  "name": "announcement-bot",
+  "version": "1.0.0",
+  "description": "track discord announcement channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "announcement"
+  ],
+  "author": "Selcuk Sahin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  }
+}
